@@ -72,7 +72,6 @@ h1, h2, h3, h4, h5 {
 }
 
 .overlay {
-    position: absolute;
     /* background-color: rgba(245, 245, 245, 0.7); */
     background-color: #c4a36550;
     min-height: 100%;
@@ -106,7 +105,7 @@ h1, h2, h3, h4, h5 {
     font-weight: 700;
     width: 50%;
     margin-bottom: 25px;
-    text-shadow: 1px 1px #eee;
+    text-shadow: 0 0 4px #eee;
     white-space: nowrap;
     line-height: 1.5;
 }
